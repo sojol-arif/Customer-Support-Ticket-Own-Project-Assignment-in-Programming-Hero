@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@theme {
+  --shadow-main: 0 4px 16px 0 rgba(0, 0, 0, .08); 
+}
+.Toastify__progress-bar-theme--light{
+  background: #02A53B !important; /* Green color */
+}

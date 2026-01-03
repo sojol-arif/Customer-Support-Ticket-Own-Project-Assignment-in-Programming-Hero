@@ -1,0 +1,137 @@
+[
+  {
+    "id": "TIC-001",
+    "title": "Login Timeout Error",
+    "description": "Users reporting 404 error during OAuth login flow.",
+    "customer": "Global Corp",
+    "priority": "High Priority",
+    "status": "In Progress",
+    "createdAt": "12/28/2025"
+  },
+  {
+    "id": "TIC-002",
+    "title": "Invoice Discrepancy",
+    "description": "December billing shows double charge for seat licenses.",
+    "customer": "TechStart Inc.",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "12/30/2025"
+  },
+  {
+    "id": "TIC-003",
+    "title": "API Rate Limiting",
+    "description": "Requesting increase in rate limits for production migration.",
+    "customer": "DataFlow",
+    "priority": "Low Priority",
+    "status": "Resolved",
+    "createdAt": "12/20/2025"
+  },
+  {
+    "id": "TIC-004",
+    "title": "Dashboard Loading Slow",
+    "description": "Analytics page taking >10s to render on mobile devices.",
+    "customer": "Sarah Jenkins",
+    "priority": "Medium Priority",
+    "status": "In Progress",
+    "createdAt": "12/31/2025"
+  },
+  {
+    "id": "TIC-005",
+    "title": "Password Reset Loop",
+    "description": "Link expires immediately after being sent to email.",
+    "customer": "Mark Thompson",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "01/01/2026"
+  },
+  {
+    "id": "TIC-006",
+    "title": "Dark Mode Request",
+    "description": "Customer asking for UI consistency across the mobile app.",
+    "customer": "Creative Studio",
+    "priority": "Low Priority",
+    "status": "Open",
+    "createdAt": "01/02/2026"
+  },
+  {
+    "id": "TIC-007",
+    "title": "Database Connectivity",
+    "description": "Intermittent 'Connection Refused' errors in West Region.",
+    "customer": "Enterprise Sol.",
+    "priority": "Critical Priority",
+    "status": "In Progress",
+    "createdAt": "01/02/2026"
+  },
+  {
+    "id": "TIC-008",
+    "title": "Export Format Issue",
+    "description": "CSV export is missing the 'Phone Number' column.",
+    "customer": "Retail Giant",
+    "priority": "Medium Priority",
+    "status": "Resolved",
+    "createdAt": "12/22/2025"
+  },
+  {
+    "id": "TIC-009",
+    "title": "Account Cancellation",
+    "description": "Moving to a different provider; needs data export.",
+    "customer": "Solo Founder",
+    "priority": "Low Priority",
+    "status": "In Progress",
+    "createdAt": "12/29/2025"
+  },
+  {
+    "id": "TIC-010",
+    "title": "GDPR Deletion Request",
+    "description": "Formal request to purge all PII from the production DB.",
+    "customer": "Privacy First",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "01/01/2026"
+  },
+  {
+    "id": "TIC-011",
+    "title": "Integration Failure",
+    "description": "Slack notifications not firing on project updates.",
+    "customer": "Build-It Co.",
+    "priority": "Medium Priority",
+    "status": "Resolved",
+    "createdAt": "12/15/2025"
+  },
+  {
+    "id": "TIC-012",
+    "title": "Mobile App Crash",
+    "description": "App closes instantly on Android 14 startup.",
+    "customer": "Alex Rivera",
+    "priority": "High Priority",
+    "status": "In Progress",
+    "createdAt": "01/01/2026"
+  },
+  {
+    "id": "TIC-013",
+    "title": "Documentation Typo",
+    "description": "Broken link in the 'Getting Started' developer guide.",
+    "customer": "Dev Academy",
+    "priority": "Low Priority",
+    "status": "Resolved",
+    "createdAt": "12/18/2025"
+  },
+  {
+    "id": "TIC-014",
+    "title": "Payment Method Failed",
+    "description": "Credit card keeps getting declined despite valid funds.",
+    "customer": "Horizon LLC",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "01/02/2026"
+  },
+  {
+    "id": "TIC-015",
+    "title": "Feature Request: Bulk Edit",
+    "description": "Need ability to edit multiple tickets at once in UI.",
+    "customer": "Internal Team",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "01/02/2026"
+  }
+]
