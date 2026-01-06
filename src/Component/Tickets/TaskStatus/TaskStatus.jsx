@@ -14,8 +14,8 @@ const TaskStatus = memo(({task, setResolveTask, resolveTask, setTaskStatus, task
 
     return (
         <div className='shadow-main bg-[#fff] p-4 rounded-[4px]'>
-            <p>{task.title}</p>
-            <button className='bg-[#02A53B] rounded text-[#fff]' onClick={()=>handleCompleteTask(task)}>Complete</button>
+            <h3 className='text-[18px] font-medium mb-3'>{task.title}</h3>
+            <button className='bg-[#02A53B] rounded text-[#fff] w-full px-4 py-3 font-semibold' onClick={()=>handleCompleteTask(task)}>Complete</button>
         </div>
     );
 });

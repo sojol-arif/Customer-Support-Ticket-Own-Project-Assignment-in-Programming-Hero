@@ -1,5 +1,22 @@
 # React + Vite
 
+
+What is JSX, and why is it used?
+-- JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+
+What is the difference between State and Props?
+-- Props useually sends data from parent element to child element.
+
+What is the useState hook, and how does it work?
+a JavaScript feature and library for building user interfaces
+
+How can you share state between components in React?
+Pass the state as props share between componenets
+
+How is event handling done in React?
+Event Handler use JSX Syntax. Just like onlcick, onChange, onSubmit
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

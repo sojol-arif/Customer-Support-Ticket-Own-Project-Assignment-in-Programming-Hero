@@ -2,6 +2,8 @@ import { Suspense, useState } from 'react'
 import './App.css'
 import Tickets from './Component/Tickets/Tickets';
 import { ToastContainer, toast } from 'react-toastify';
+import Navbar from './Component/Navbar/Navbar';
+import Footer from './Component/Footer/Footer';
 
 
 const fetchTicket = async () => {
@@ -17,10 +19,14 @@ function App() {
 
   return (
     <div className='font-[Inter] text-[16px] text-[#627382] bg-[#F5F5F5]'>
-      <Suspense fallback={<p>Loading Some </p>}>
-        <Tickets useFetchTicket={useFetchTicket} taskStatus={taskStatus} setTaskStatus={setTaskStatus} resolveTask={resolveTask} setResolveTask={setResolveTask}></Tickets>
-      </Suspense>
-       <ToastContainer />
+      <div>
+        <Navbar></Navbar>
+        <Suspense fallback={<p>Loading Some </p>}>
+          <Tickets useFetchTicket={useFetchTicket} taskStatus={taskStatus} setTaskStatus={setTaskStatus} resolveTask={resolveTask} setResolveTask={setResolveTask}></Tickets>
+        </Suspense>
+        <Footer></Footer>
+        <ToastContainer />
+      </div>
     </div>
   )
 }

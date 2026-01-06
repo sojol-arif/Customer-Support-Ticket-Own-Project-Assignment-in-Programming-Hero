@@ -58,7 +58,7 @@
     "title": "Database Connectivity",
     "description": "Intermittent 'Connection Refused' errors in West Region.",
     "customer": "Enterprise Sol.",
-    "priority": "Critical Priority",
+    "priority": "Low Priority",
     "status": "In Progress",
     "createdAt": "01/02/2026"
   },
